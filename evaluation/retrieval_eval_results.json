@@ -1,0 +1,1027 @@
+{
+  "k": 5,
+  "counts": {
+    "text_cases": 20,
+    "image_cases": 16
+  },
+  "elapsed_seconds": 142.24,
+  "text": {
+    "semantic": {
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 1.0,
+      "precision@5": 0.71
+    },
+    "keyword": {
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 0.975,
+      "precision@5": 0.8099999999999999
+    },
+    "hybrid_rrf": {
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 1.0,
+      "precision@5": 0.8400000000000001
+    },
+    "cases": [
+      {
+        "id": "txt_01",
+        "query": "Warthog bilge pompaları ne işe yarar ve ne zaman çalışır?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ],
+        "keyword_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ],
+        "hybrid_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ]
+      },
+      {
+        "id": "txt_02",
+        "query": "Warthog üzerinde yükler su geçişinde nereye monte edilmelidir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ],
+        "keyword_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ],
+        "hybrid_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ]
+      },
+      {
+        "id": "txt_03",
+        "query": "Warthog drivetrain lever bakım sırasında hangi amaçla kullanılır?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ],
+        "keyword_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ],
+        "hybrid_top_categories": [
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog",
+          "warthog"
+        ]
+      },
+      {
+        "id": "txt_04",
+        "query": "Husky A300 üzerinde özel donanım entegrasyonu yapmadan önce hangi güvenlik uyarısı var?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "husky_a300",
+          "husky_a300_observer",
+          "husky_a300_amp",
+          "husky_a300",
+          "husky_a300_amp"
+        ],
+        "keyword_top_categories": [
+          "husky_a300",
+          "husky_a300",
+          "husky_a300",
+          "husky_a300_observer",
+          "husky_a300_amp"
+        ],
+        "hybrid_top_categories": [
+          "husky_a300",
+          "husky_a300",
+          "husky_a300_observer",
+          "husky_a300",
+          "husky_a300_amp"
+        ]
+      },
+      {
+        "id": "txt_05",
+        "query": "Husky A300 kablo geçişinde IP54 korumasını sürdürmek için hangi çözüm öneriliyor?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "husky_a300",
+          "husky_a300_observer",
+          "husky_a300_amp",
+          "husky_a300",
+          "husky_a300_amp"
+        ],
+        "keyword_top_categories": [
+          "husky_a300",
+          "husky_a300_observer",
+          "husky_a300_observer",
+          "husky_a300",
+          "husky_a300"
+        ],
+        "hybrid_top_categories": [
+          "husky_a300",
+          "husky_a300",
+          "husky_a300_observer",
+          "husky_a300_observer",
+          "husky_a300_amp"
+        ]
+      },
+      {
+        "id": "txt_06",
+        "query": "Jackal robotunda MCU ile bilgisayar arasındaki haberleşme nasıl sağlanır?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "jackal",
+          "dingo",
+          "dingo",
+          "jackal",
+          "jackal"
+        ],
+        "keyword_top_categories": [
+          "jackal",
+          "jackal",
+          "jackal",
+          "jackal",
+          "jackal"
+        ],
+        "hybrid_top_categories": [
+          "jackal",
+          "jackal",
+          "dingo",
+          "jackal",
+          "dingo"
+        ]
+      },
+      {
+        "id": "txt_07",
+        "query": "Jackal HMI panelinde motion stop butonu hangi durumu gösterir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "jackal",
+          "jackal",
+          "husky_a200",
+          "jackal",
+          "husky_a200"
+        ],
+        "keyword_top_categories": [
+          "jackal",
+          "jackal",
+          "jackal",
+          "jackal",
+          "jackal"
+        ],
+        "hybrid_top_categories": [
+          "jackal",
+          "jackal",
+          "jackal",
+          "jackal",
+          "husky_a200"
+        ]
+      },
+      {
+        "id": "txt_08",
+        "query": "Dingo-D ile Dingo-O arasındaki sürüş ve modül yuvası farkı nedir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo"
+        ],
+        "keyword_top_categories": [
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo"
+        ],
+        "hybrid_top_categories": [
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo"
+        ]
+      },
+      {
+        "id": "txt_09",
+        "query": "Dingo robotunun sistem LED'leri nerede bulunur ve neyi gösterir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "dingo",
+          "dingo",
+          "husky_a300_observer",
+          "husky_a300_amp",
+          "husky_a300"
+        ],
+        "keyword_top_categories": [
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo",
+          "accessories_computers"
+        ],
+        "hybrid_top_categories": [
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo",
+          "husky_a300_observer"
+        ]
+      },
+      {
+        "id": "txt_10",
+        "query": "Boxer robotunun maksimum hızı, ağırlığı ve çalışma süresi nedir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer"
+        ],
+        "keyword_top_categories": [
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer"
+        ],
+        "hybrid_top_categories": [
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer"
+        ]
+      },
+      {
+        "id": "txt_11",
+        "query": "Boxer HMI panelinde hangi bağlantı ve kontrol elemanları bulunur?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "boxer",
+          "boxer",
+          "boxer",
+          "dingo",
+          "husky_a300"
+        ],
+        "keyword_top_categories": [
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer"
+        ],
+        "hybrid_top_categories": [
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer",
+          "boxer"
+        ]
+      },
+      {
+        "id": "txt_12",
+        "query": "Ridgeback üzerindeki stop reset ve power butonları nerede bulunur?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "warthog"
+        ],
+        "keyword_top_categories": [
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback"
+        ],
+        "hybrid_top_categories": [
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback"
+        ]
+      },
+      {
+        "id": "txt_13",
+        "query": "Ridgeback body lights solid red olduğunda sistem ne durumda olur?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "boxer"
+        ],
+        "keyword_top_categories": [
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback"
+        ],
+        "hybrid_top_categories": [
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback",
+          "ridgeback"
+        ]
+      },
+      {
+        "id": "txt_14",
+        "query": "FLIR Ladybug5+ sensörünün kütlesi ve voltaj aralığı nedir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_manipulators",
+          "accessories_sensors",
+          "accessories_sensors"
+        ],
+        "keyword_top_categories": [
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_manipulators",
+          "accessories_sensors"
+        ],
+        "hybrid_top_categories": [
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_manipulators"
+        ]
+      },
+      {
+        "id": "txt_15",
+        "query": "Fixposition Vision RTK 2 sensörü hangi diğer isimle bilinir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_sensors"
+        ],
+        "keyword_top_categories": [
+          "accessories_sensors",
+          "husky_a300_amp",
+          "husky_a300_amp",
+          "husky_a300_observer",
+          "husky_a300_observer"
+        ],
+        "hybrid_top_categories": [
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_sensors",
+          "husky_a300_amp",
+          "accessories_sensors"
+        ]
+      },
+      {
+        "id": "txt_16",
+        "query": "Jetson Nano yazılım imajı SD karta hangi araçla yazdırılır?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ],
+        "keyword_top_categories": [
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ],
+        "hybrid_top_categories": [
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ]
+      },
+      {
+        "id": "txt_17",
+        "query": "Mini ITX bilgisayarlar Clearpath robotlarında ne amaçla kullanılır?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 2,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ],
+        "keyword_top_categories": [
+          "husky_a300",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ],
+        "hybrid_top_categories": [
+          "accessories_computers",
+          "husky_a300",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ]
+      },
+      {
+        "id": "txt_18",
+        "query": "Kinova Gen3 Lite manipülatörünün erişim mesafesi ve payload değeri nedir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_pacs"
+        ],
+        "keyword_top_categories": [
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "husky_a300"
+        ],
+        "hybrid_top_categories": [
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators"
+        ]
+      },
+      {
+        "id": "txt_19",
+        "query": "DIN rail kitinde attachment plate üzerine DIN rail nasıl monte edilir?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_computers"
+        ],
+        "keyword_top_categories": [
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons"
+        ],
+        "hybrid_top_categories": [
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons"
+        ]
+      },
+      {
+        "id": "txt_20",
+        "query": "Relay Board Clearpath robotlarında hangi amaçlarla kullanılır?",
+        "semantic_first_relevant_rank": 1,
+        "keyword_first_relevant_rank": 1,
+        "hybrid_first_relevant_rank": 1,
+        "semantic_top_categories": [
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "warthog"
+        ],
+        "keyword_top_categories": [
+          "accessories_addons",
+          "husky_a300",
+          "husky_a300",
+          "husky_a300_observer",
+          "husky_a300_amp"
+        ],
+        "hybrid_top_categories": [
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_addons",
+          "husky_a300",
+          "accessories_addons"
+        ]
+      }
+    ]
+  },
+  "image": {
+    "clip_image_to_image": {
+      "hit@5": 0.875,
+      "recall@5": 0.875,
+      "mrr@5": 0.875,
+      "precision@5": 0.3875
+    },
+    "cases": [
+      {
+        "id": "img_01",
+        "image_path": "data/images/warthog/c575f6f1685575b3.jpg",
+        "expected_category": "warthog",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "c575f6f1685575b3",
+          "aac8db9f569c6df1",
+          "0d68ae1bfc9b5f26",
+          "8184d3b198d78d1f",
+          "d23d629b8405b938"
+        ],
+        "top_categories": [
+          "warthog",
+          "husky_a200",
+          "husky_a200",
+          "accessories_addons",
+          "husky_a200"
+        ],
+        "top_scores": [
+          0.9902,
+          0.7823,
+          0.778,
+          0.7706,
+          0.7665
+        ]
+      },
+      {
+        "id": "img_02",
+        "image_path": "data/images/warthog/665c6411793afa82.jpg",
+        "expected_category": "warthog",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "665c6411793afa82",
+          "4bf16fcb258cc8cd",
+          "c251f8a858bf60f6",
+          "56534e346f3b9076",
+          "91493217cac3a9af"
+        ],
+        "top_categories": [
+          "warthog",
+          "jackal",
+          "boxer",
+          "boxer",
+          "dingo"
+        ],
+        "top_scores": [
+          0.9726,
+          0.8814,
+          0.865,
+          0.8451,
+          0.8415
+        ]
+      },
+      {
+        "id": "img_03",
+        "image_path": "data/images/husky_a300/16200dcc375731d0.jpg",
+        "expected_category": "husky_a300",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "16200dcc375731d0",
+          "bc2dcd9f61673962",
+          "917cc279c2a23465",
+          "42437510c2009efd",
+          "5af3a2ff4f242ce6"
+        ],
+        "top_categories": [
+          "husky_a300",
+          "boxer",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ],
+        "top_scores": [
+          0.9253,
+          0.8418,
+          0.8306,
+          0.822,
+          0.807
+        ]
+      },
+      {
+        "id": "img_04",
+        "image_path": "data/images/husky_a200/66aa5240e905a6ca.jpg",
+        "expected_category": "husky_a200",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "66aa5240e905a6ca",
+          "57eceff04e5c790e",
+          "be03c4064482282f",
+          "effd7d38ab67a850",
+          "0b7d46d3a280256c"
+        ],
+        "top_categories": [
+          "husky_a200",
+          "husky_a200",
+          "accessories_addons",
+          "ridgeback",
+          "dingo"
+        ],
+        "top_scores": [
+          0.9542,
+          0.8865,
+          0.8717,
+          0.8451,
+          0.8295
+        ]
+      },
+      {
+        "id": "img_05",
+        "image_path": "data/images/jackal/e2386bba2740ee79.jpg",
+        "expected_category": "jackal",
+        "first_relevant_rank": null,
+        "top_hashes": [
+          "116fe1338cc5a731",
+          "ddd209e818c6ca83",
+          "94a45f095c9ffdce",
+          "d6ab5cb60fb3ebff"
+        ],
+        "top_categories": [
+          "accessories_sensors",
+          "accessories_pacs",
+          "accessories_sensors",
+          "accessories_sensors"
+        ],
+        "top_scores": [
+          0.8053,
+          0.7713,
+          0.7493,
+          0.7358
+        ]
+      },
+      {
+        "id": "img_06",
+        "image_path": "data/images/dingo/053c27abe9409aaa.jpg",
+        "expected_category": "dingo",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "053c27abe9409aaa",
+          "e7279e7178736755",
+          "91493217cac3a9af",
+          "5c65c306460fa004",
+          "e8202875a9d75000"
+        ],
+        "top_categories": [
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo"
+        ],
+        "top_scores": [
+          0.9502,
+          0.9467,
+          0.9001,
+          0.8933,
+          0.8667
+        ]
+      },
+      {
+        "id": "img_07",
+        "image_path": "data/images/dingo/75a700f36286b1c4.jpg",
+        "expected_category": "dingo",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "3e9bbd44d88d9c1b",
+          "128ef4f4020c443c",
+          "75a700f36286b1c4",
+          "4286735bba4adc12",
+          "01e092d82f4eb131"
+        ],
+        "top_categories": [
+          "dingo",
+          "dingo",
+          "dingo",
+          "dingo",
+          "husky_a200"
+        ],
+        "top_scores": [
+          0.9027,
+          0.8784,
+          0.8728,
+          0.8623,
+          0.821
+        ]
+      },
+      {
+        "id": "img_08",
+        "image_path": "data/images/boxer/bc2dcd9f61673962.jpg",
+        "expected_category": "boxer",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "bc2dcd9f61673962",
+          "c9c6f874c4d7953c",
+          "0bea6092665cac13",
+          "8efc9fdbed600dae",
+          "917cc279c2a23465"
+        ],
+        "top_categories": [
+          "boxer",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_manipulators",
+          "accessories_computers"
+        ],
+        "top_scores": [
+          0.9661,
+          0.8384,
+          0.8267,
+          0.8266,
+          0.8177
+        ]
+      },
+      {
+        "id": "img_09",
+        "image_path": "data/images/boxer/56534e346f3b9076.jpg",
+        "expected_category": "boxer",
+        "first_relevant_rank": null,
+        "top_hashes": [
+          "116fe1338cc5a731",
+          "ddd209e818c6ca83",
+          "94a45f095c9ffdce",
+          "d6ab5cb60fb3ebff"
+        ],
+        "top_categories": [
+          "accessories_sensors",
+          "accessories_pacs",
+          "accessories_sensors",
+          "accessories_sensors"
+        ],
+        "top_scores": [
+          0.8053,
+          0.7713,
+          0.7493,
+          0.7358
+        ]
+      },
+      {
+        "id": "img_10",
+        "image_path": "data/images/ridgeback/9570a8431ee19143.jpg",
+        "expected_category": "ridgeback",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "9570a8431ee19143",
+          "b113fc99ae6ff27f",
+          "f223691dfbc08167",
+          "8e22eed1cbfbe4ce",
+          "c9c6f874c4d7953c"
+        ],
+        "top_categories": [
+          "ridgeback",
+          "boxer",
+          "accessories_sensors",
+          "accessories_addons",
+          "accessories_computers"
+        ],
+        "top_scores": [
+          0.9607,
+          0.7781,
+          0.7504,
+          0.7394,
+          0.7393
+        ]
+      },
+      {
+        "id": "img_11",
+        "image_path": "data/images/accessories_sensors/7934b689f99374ec.jpg",
+        "expected_category": "accessories_sensors",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "7934b689f99374ec",
+          "4f99a18d605ece4f",
+          "524926fcd54e5710",
+          "187cb16da6dfe938",
+          "8efc9fdbed600dae"
+        ],
+        "top_categories": [
+          "accessories_sensors",
+          "accessories_sensors",
+          "boxer",
+          "accessories_sensors",
+          "accessories_manipulators"
+        ],
+        "top_scores": [
+          0.9511,
+          0.7855,
+          0.7842,
+          0.7637,
+          0.7634
+        ]
+      },
+      {
+        "id": "img_12",
+        "image_path": "data/images/accessories_sensors/fb64ecfb4ff82988.jpg",
+        "expected_category": "accessories_sensors",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "fb64ecfb4ff82988",
+          "f0fa4285b9540940",
+          "c160b3ce1fb8baf9",
+          "24a68d1e207def32",
+          "1cb8aa77a614b804"
+        ],
+        "top_categories": [
+          "accessories_sensors",
+          "accessories_sensors",
+          "accessories_addons",
+          "accessories_addons",
+          "accessories_sensors"
+        ],
+        "top_scores": [
+          0.9696,
+          0.8498,
+          0.8391,
+          0.8251,
+          0.8202
+        ]
+      },
+      {
+        "id": "img_13",
+        "image_path": "data/images/accessories_computers/09e75572c105192a.jpg",
+        "expected_category": "accessories_computers",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "09e75572c105192a",
+          "4d5c9744d37f8a04",
+          "cb0ee30309efbf0b",
+          "6bed1c33e279bffb",
+          "2971b24f141a29bc"
+        ],
+        "top_categories": [
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers"
+        ],
+        "top_scores": [
+          0.9687,
+          0.8754,
+          0.8685,
+          0.8576,
+          0.8454
+        ]
+      },
+      {
+        "id": "img_14",
+        "image_path": "data/images/accessories_manipulators/79c97519014f6eb9.jpg",
+        "expected_category": "accessories_manipulators",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "79c97519014f6eb9",
+          "37c6e8be7c9bc6d0",
+          "143424b3c153c0cd",
+          "f810cb0aac451ab8",
+          "8184d3b198d78d1f"
+        ],
+        "top_categories": [
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_manipulators",
+          "accessories_addons"
+        ],
+        "top_scores": [
+          0.8738,
+          0.8487,
+          0.8428,
+          0.8314,
+          0.8305
+        ]
+      },
+      {
+        "id": "img_15",
+        "image_path": "data/images/accessories_addons/9c52089869cd7797.jpg",
+        "expected_category": "accessories_addons",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "9c52089869cd7797",
+          "be03c4064482282f",
+          "effd7d38ab67a850",
+          "0b7d46d3a280256c",
+          "57eceff04e5c790e"
+        ],
+        "top_categories": [
+          "accessories_addons",
+          "accessories_addons",
+          "ridgeback",
+          "dingo",
+          "husky_a200"
+        ],
+        "top_scores": [
+          0.9899,
+          0.8764,
+          0.838,
+          0.7845,
+          0.7803
+        ]
+      },
+      {
+        "id": "img_16",
+        "image_path": "data/images/accessories_addons/c8c04830917a7d40.jpg",
+        "expected_category": "accessories_addons",
+        "first_relevant_rank": 1,
+        "top_hashes": [
+          "c8c04830917a7d40",
+          "5b969fe7ff36ae36",
+          "5af3a2ff4f242ce6",
+          "9f9a72289e20ec68",
+          "16200dcc375731d0"
+        ],
+        "top_categories": [
+          "accessories_addons",
+          "accessories_computers",
+          "accessories_computers",
+          "accessories_computers",
+          "husky_a300"
+        ],
+        "top_scores": [
+          0.9729,
+          0.901,
+          0.8908,
+          0.8701,
+          0.8697
+        ]
+      }
+    ],
+    "query_variant": "mild_crop_resize_jpeg82"
+  }
+}

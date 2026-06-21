@@ -1,0 +1,40 @@
+# RAG Destekli Türkçe Soru-Cevap Sistemi Gereksinimleri
+
+# Core ML/NLP Libraries - Uyumlu versiyonlar
+langchain>=0.1.20
+langchain-community>=0.0.38
+langchain-huggingface>=0.0.1
+
+# LLM Support
+ollama>=0.1.6
+langchain-ollama>=0.2.0
+
+# Embeddings & Vector Store
+sentence-transformers>=2.2.2
+huggingface-hub>=0.20.0
+transformers>=4.36.0  # CLIP model için
+torch>=2.0.0  # CLIP inference
+
+# Document Processing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+pymupdf>=1.23.0
+requests>=2.31.0  # Web scraping and image extraction
+
+# Database
+pymongo>=4.6.0  # Metadata, images, categories
+qdrant-client>=1.17.0  # Vector search; local collection schema and query_points API require newer client
+
+# Web Interface
+streamlit>=1.29.0
+
+# Utilities
+numpy>=2.1.0  # Python 3.13 + qdrant-client 1.17.x resolves to NumPy 2.x
+python-dotenv>=1.0.0
+Pillow>=10.0.0  # Image processing for vision
+deep-translator>=1.11.4  # Turkish to English translation for CLIP text queries
+
+# Optional: Accelerated inference
+# torch>=2.0.0
+# transformers>=4.36.0
+torchvision>=0.15.2
