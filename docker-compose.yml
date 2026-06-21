@@ -1,0 +1,82 @@
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.6
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    environment:
+      OLLAMA_NEW_ENGINE: "true"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  ollama-model-init:
+    image: ollama/ollama:latest
+    depends_on:
+      - ollama
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b}
+      OLLAMA_VISION_MODEL: ${OLLAMA_VISION_MODEL:-qwen2.5vl:7b}
+    entrypoint: ["/bin/sh", "-c"]
+    command: >
+      "until ollama list >/dev/null 2>&1; do sleep 2; done;
+      ollama pull $$OLLAMA_MODEL;
+      if [ \"$$OLLAMA_VISION_MODEL\" != \"$$OLLAMA_MODEL\" ]; then ollama pull $$OLLAMA_VISION_MODEL; fi"
+    restart: "no"
+
+  chatbot:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_started
+      qdrant:
+        condition: service_started
+      ollama:
+        condition: service_started
+      ollama-model-init:
+        condition: service_completed_successfully
+    ports:
+      - "8501:8501"
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/
+      QDRANT_MODE: server
+      QDRANT_HOST: qdrant
+      QDRANT_PORT: 6333
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b}
+      OLLAMA_VISION_MODEL: ${OLLAMA_VISION_MODEL:-qwen2.5vl:7b}
+      VISION_RETRIEVAL_MODE: ${VISION_RETRIEVAL_MODE:-clip}
+      SIMILARITY_THRESHOLD: ${SIMILARITY_THRESHOLD:-0.55}
+      RETRIEVAL_K: ${RETRIEVAL_K:-4}
+      MAX_CONTEXT_CHARS: ${MAX_CONTEXT_CHARS:-3500}
+      HF_HOME: /root/.cache/huggingface
+      TRANSFORMERS_CACHE: /root/.cache/huggingface
+    volumes:
+      - ./data:/app/data
+      - hf_cache:/root/.cache/huggingface
+
+volumes:
+  mongo_data:
+  qdrant_data:
+  ollama_data:
+  hf_cache:

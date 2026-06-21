@@ -1,0 +1,8 @@
+.git
+.venv
+__pycache__
+*.pyc
+.env
+qdrant_storage
+ugv_knowledge_base
+data/images

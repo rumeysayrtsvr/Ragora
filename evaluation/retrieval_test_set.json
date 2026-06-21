@@ -1,0 +1,274 @@
+{
+  "text_cases": [
+    {
+      "id": "txt_01",
+      "query": "Warthog bilge pompaları ne işe yarar ve ne zaman çalışır?",
+      "expected_categories": ["warthog"],
+      "source_contains": ["warthog/user_manual_warthog"],
+      "terms_any": ["bilge", "pump", "water", "drive unit"]
+    },
+    {
+      "id": "txt_02",
+      "query": "Warthog üzerinde yükler su geçişinde nereye monte edilmelidir?",
+      "expected_categories": ["warthog"],
+      "source_contains": ["warthog/user_manual_warthog"],
+      "terms_any": ["payload", "central chassis", "drive units", "23 kg"]
+    },
+    {
+      "id": "txt_03",
+      "query": "Warthog drivetrain lever bakım sırasında hangi amaçla kullanılır?",
+      "expected_categories": ["warthog"],
+      "source_contains": ["warthog/user_manual_warthog"],
+      "terms_any": ["drivetrain", "lever", "neutral", "maintenance"]
+    },
+    {
+      "id": "txt_04",
+      "query": "Husky A300 üzerinde özel donanım entegrasyonu yapmadan önce hangi güvenlik uyarısı var?",
+      "expected_categories": ["husky_a300"],
+      "source_contains": ["husky/a300/integration_husky"],
+      "terms_any": ["risk assessment", "custom integrations", "hazards", "safety"]
+    },
+    {
+      "id": "txt_05",
+      "query": "Husky A300 kablo geçişinde IP54 korumasını sürdürmek için hangi çözüm öneriliyor?",
+      "expected_categories": ["husky_a300"],
+      "source_contains": ["husky/a300/integration_husky"],
+      "terms_any": ["IP54", "cable", "Icotek", "expansion plate"]
+    },
+    {
+      "id": "txt_06",
+      "query": "Jackal robotunda MCU ile bilgisayar arasındaki haberleşme nasıl sağlanır?",
+      "expected_categories": ["jackal"],
+      "source_contains": ["jackal/user_manual_jackal"],
+      "terms_any": ["Full Speed USB", "rosserial", "MCU", "computer"]
+    },
+    {
+      "id": "txt_07",
+      "query": "Jackal HMI panelinde motion stop butonu hangi durumu gösterir?",
+      "expected_categories": ["jackal"],
+      "source_contains": ["jackal/user_manual_jackal"],
+      "terms_any": ["Motion Stop", "HMI", "solid green", "flashing green"]
+    },
+    {
+      "id": "txt_08",
+      "query": "Dingo-D ile Dingo-O arasındaki sürüş ve modül yuvası farkı nedir?",
+      "expected_categories": ["dingo"],
+      "source_contains": ["dingo/user_manual_dingo"],
+      "terms_any": ["differential drive", "omnidirectional", "module bays", "battery module"]
+    },
+    {
+      "id": "txt_09",
+      "query": "Dingo robotunun sistem LED'leri nerede bulunur ve neyi gösterir?",
+      "expected_categories": ["dingo"],
+      "source_contains": ["dingo/user_manual_dingo"],
+      "terms_any": ["LEDs", "four corners", "state of the system", "firmware"]
+    },
+    {
+      "id": "txt_10",
+      "query": "Boxer robotunun maksimum hızı, ağırlığı ve çalışma süresi nedir?",
+      "expected_categories": ["boxer"],
+      "source_contains": ["boxer/user_manual_boxer"],
+      "terms_any": ["2.0 m/s", "114 kg", "3 hours", "8 hours"]
+    },
+    {
+      "id": "txt_11",
+      "query": "Boxer HMI panelinde hangi bağlantı ve kontrol elemanları bulunur?",
+      "expected_categories": ["boxer"],
+      "source_contains": ["boxer/user_manual_boxer"],
+      "terms_any": ["HMI", "Ethernet", "emergency stop", "Power"]
+    },
+    {
+      "id": "txt_12",
+      "query": "Ridgeback üzerindeki stop reset ve power butonları nerede bulunur?",
+      "expected_categories": ["ridgeback"],
+      "source_contains": ["ridgeback/user_manual_ridgeback"],
+      "terms_any": ["Stop Reset", "Power ON/OFF", "mushroom", "back"]
+    },
+    {
+      "id": "txt_13",
+      "query": "Ridgeback body lights solid red olduğunda sistem ne durumda olur?",
+      "expected_categories": ["ridgeback"],
+      "source_contains": ["ridgeback/user_manual_ridgeback"],
+      "terms_any": ["Solid red", "MCU", "computer", "rosserial"]
+    },
+    {
+      "id": "txt_14",
+      "query": "FLIR Ladybug5+ sensörünün kütlesi ve voltaj aralığı nedir?",
+      "expected_categories": ["accessories_sensors"],
+      "source_contains": ["flir_ladybug5p"],
+      "terms_any": ["3000 g", "12 V", "24 V", "FLIR Ladybug5"]
+    },
+    {
+      "id": "txt_15",
+      "query": "Fixposition Vision RTK 2 sensörü hangi diğer isimle bilinir?",
+      "expected_categories": ["accessories_sensors"],
+      "source_contains": ["fixposition"],
+      "terms_any": ["Movella XVN", "Xsens Vision Navigator", "Vision RTK"]
+    },
+    {
+      "id": "txt_16",
+      "query": "Jetson Nano yazılım imajı SD karta hangi araçla yazdırılır?",
+      "expected_categories": ["accessories_computers"],
+      "source_contains": ["jetson_software"],
+      "terms_any": ["Balena Etcher", "SD Card", "flash", "image"]
+    },
+    {
+      "id": "txt_17",
+      "query": "Mini ITX bilgisayarlar Clearpath robotlarında ne amaçla kullanılır?",
+      "expected_categories": ["accessories_computers"],
+      "source_contains": ["mini_itx"],
+      "terms_any": ["default computer", "Mini ITX", "software", "Robot Installation"]
+    },
+    {
+      "id": "txt_18",
+      "query": "Kinova Gen3 Lite manipülatörünün erişim mesafesi ve payload değeri nedir?",
+      "expected_categories": ["accessories_manipulators"],
+      "source_contains": ["kinova_gen3_lite"],
+      "terms_any": ["760 mm", "0.5 kg", "Kinova", "Payload"]
+    },
+    {
+      "id": "txt_19",
+      "query": "DIN rail kitinde attachment plate üzerine DIN rail nasıl monte edilir?",
+      "expected_categories": ["accessories_addons"],
+      "source_contains": ["din_rail"],
+      "terms_any": ["M5 X 10", "attachment-plate", "nuts", "spacers"]
+    },
+    {
+      "id": "txt_20",
+      "query": "Relay Board Clearpath robotlarında hangi amaçlarla kullanılır?",
+      "expected_categories": ["accessories_addons"],
+      "source_contains": ["relay_board"],
+      "terms_any": ["controlling lights", "relay", "GPIO", "button inputs"]
+    }
+  ],
+  "image_cases": [
+    {
+      "id": "img_01",
+      "image_path": "data/images/warthog/c575f6f1685575b3.jpg",
+      "expected_category": "warthog",
+      "expected_hash": "c575f6f1685575b3",
+      "source_contains": ["warthog/user_manual_warthog"],
+      "section_terms": ["Drivetrain"]
+    },
+    {
+      "id": "img_02",
+      "image_path": "data/images/warthog/665c6411793afa82.jpg",
+      "expected_category": "warthog",
+      "expected_hash": "665c6411793afa82",
+      "source_contains": ["warthog/user_manual_warthog"],
+      "section_terms": ["Futaba", "Controller"]
+    },
+    {
+      "id": "img_03",
+      "image_path": "data/images/husky_a300/16200dcc375731d0.jpg",
+      "expected_category": "husky_a300",
+      "expected_hash": "16200dcc375731d0",
+      "source_contains": ["husky/a300/integration_husky"],
+      "section_terms": ["Cable Passthrough"]
+    },
+    {
+      "id": "img_04",
+      "image_path": "data/images/husky_a200/66aa5240e905a6ca.jpg",
+      "expected_category": "husky_a200",
+      "expected_hash": "66aa5240e905a6ca",
+      "source_contains": ["husky/a200/user_manual_husky"],
+      "section_terms": ["Controller"]
+    },
+    {
+      "id": "img_05",
+      "image_path": "data/images/jackal/e2386bba2740ee79.jpg",
+      "expected_category": "jackal",
+      "expected_hash": "e2386bba2740ee79",
+      "source_contains": ["jackal/user_manual_jackal"],
+      "section_terms": ["Interior Features"]
+    },
+    {
+      "id": "img_06",
+      "image_path": "data/images/dingo/053c27abe9409aaa.jpg",
+      "expected_category": "dingo",
+      "expected_hash": "053c27abe9409aaa",
+      "source_contains": ["dingo/user_manual_dingo"],
+      "section_terms": ["Exterior Features"]
+    },
+    {
+      "id": "img_07",
+      "image_path": "data/images/dingo/75a700f36286b1c4.jpg",
+      "expected_category": "dingo",
+      "expected_hash": "75a700f36286b1c4",
+      "source_contains": ["dingo/user_manual_dingo"],
+      "section_terms": ["Payload Details"]
+    },
+    {
+      "id": "img_08",
+      "image_path": "data/images/boxer/bc2dcd9f61673962.jpg",
+      "expected_category": "boxer",
+      "expected_hash": "bc2dcd9f61673962",
+      "source_contains": ["boxer/user_manual_boxer"],
+      "section_terms": ["Powering Up"]
+    },
+    {
+      "id": "img_09",
+      "image_path": "data/images/boxer/56534e346f3b9076.jpg",
+      "expected_category": "boxer",
+      "expected_hash": "56534e346f3b9076",
+      "source_contains": ["boxer/user_manual_boxer"],
+      "section_terms": ["Exterior Features"]
+    },
+    {
+      "id": "img_10",
+      "image_path": "data/images/ridgeback/9570a8431ee19143.jpg",
+      "expected_category": "ridgeback",
+      "expected_hash": "9570a8431ee19143",
+      "source_contains": ["ridgeback/user_manual_ridgeback"],
+      "section_terms": ["Ridgeback User Manual"]
+    },
+    {
+      "id": "img_11",
+      "image_path": "data/images/accessories_sensors/7934b689f99374ec.jpg",
+      "expected_category": "accessories_sensors",
+      "expected_hash": "7934b689f99374ec",
+      "source_contains": ["axis_q6225_le"],
+      "section_terms": ["Axis Q6225-LE"]
+    },
+    {
+      "id": "img_12",
+      "image_path": "data/images/accessories_sensors/fb64ecfb4ff82988.jpg",
+      "expected_category": "accessories_sensors",
+      "expected_hash": "fb64ecfb4ff82988",
+      "source_contains": ["microstrain_gq7"],
+      "section_terms": ["MicroStrain GQ7"]
+    },
+    {
+      "id": "img_13",
+      "image_path": "data/images/accessories_computers/09e75572c105192a.jpg",
+      "expected_category": "accessories_computers",
+      "expected_hash": "09e75572c105192a",
+      "source_contains": ["jetson_nano_hardware_husky"],
+      "section_terms": ["Remove Mini-ITX"]
+    },
+    {
+      "id": "img_14",
+      "image_path": "data/images/accessories_manipulators/79c97519014f6eb9.jpg",
+      "expected_category": "accessories_manipulators",
+      "expected_hash": "79c97519014f6eb9",
+      "source_contains": ["kinova_gen3_lite"],
+      "section_terms": ["ROS 2 Configuration"]
+    },
+    {
+      "id": "img_15",
+      "image_path": "data/images/accessories_addons/9c52089869cd7797.jpg",
+      "expected_category": "accessories_addons",
+      "expected_hash": "9c52089869cd7797",
+      "source_contains": ["controllers"],
+      "section_terms": ["Sony Dualshock"]
+    },
+    {
+      "id": "img_16",
+      "image_path": "data/images/accessories_addons/c8c04830917a7d40.jpg",
+      "expected_category": "accessories_addons",
+      "expected_hash": "c8c04830917a7d40",
+      "source_contains": ["relay_board"],
+      "section_terms": ["Relay Board"]
+    }
+  ]
+}
